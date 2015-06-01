@@ -1,0 +1,28 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "a test env for node",
+  "main": "index.js",
+  "scripts": {
+     "test": "mocha -w --compilers coffee:coffee-script/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/guandai/coffee-node.git"
+  },
+  "keywords": [
+    "test",
+    "node",
+    "coffee"
+  ],
+  "author": "twindai",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/guandai/coffee-node/issues"
+  },
+  "homepage": "https://github.com/guandai/coffee-node#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  }
+}
